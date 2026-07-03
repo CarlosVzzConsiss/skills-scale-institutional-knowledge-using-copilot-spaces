@@ -75,7 +75,141 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## Scrum Masters / Agile Coaches
+
+### Role Summary
+Scrum Masters facilitate agile processes and remove impediments for development teams. They serve the team by promoting self-organization, continuous improvement, and adherence to agile practices and ceremonies.
+
+### Responsibilities
+- Facilitate daily standups, sprint planning, reviews, and retrospectives
+- Remove blockers and impediments preventing team progress
+- Coach team members on agile practices and mindset
+- Maintain sprint metrics and burndown visibility
+- Help resolve conflicts and foster team collaboration
+- Support adoption of agile tools and processes
+
+### Goals
+- Enable teams to self-organize and make decisions autonomously
+- Maximize team velocity and predictability
+- Foster a culture of continuous improvement and psychological safety
+- Reduce process overhead and ceremony waste
+
+### Typical Communication
+- Facilitate sprint ceremonies and team huddles
+- Impediment tracking and escalation reports
+- Metrics dashboards (velocity, burndown, cycle time)
+- Coaching conversations and retrospective action items
+
+### Interaction with Existing Roles
+- Works closely with Project Managers to align schedules and dependencies
+- Supports Developers by removing technical and organizational blockers
+- Partners with Product Managers on backlog refinement and prioritization clarity
+- Reports escalations to Project Managers when organizational barriers emerge
+
+---
+
+## Quality Assurance (QA) Engineers
+
+### Role Summary
+QA Engineers ensure product quality through testing, test automation, and quality standards enforcement. They work cross-functionally to identify defects, validate acceptance criteria, and improve testing practices.
+
+### Responsibilities
+- Design and execute test plans for features and releases
+- Develop and maintain automated test suites
+- Perform exploratory testing and identify edge cases
+- Report and track defects with clear reproduction steps
+- Define quality gates and acceptance criteria with developers and product managers
+- Collaborate on test coverage and observability improvements
+
+### Goals
+- Achieve high product quality and customer satisfaction
+- Reduce defects escaping to production
+- Build confidence through comprehensive test coverage and traceability
+- Enable rapid, risk-managed releases
+
+### Typical Communication
+- Test plans and test case documentation
+- Defect reports with severity and reproduction details
+- Quality metrics (pass rates, defect trends, coverage reports)
+- Release readiness assessments and sign-offs
+
+### Interaction with Existing Roles
+- Partners with Developers on test-driven development and automation
+- Validates acceptance criteria with Product Managers before development
+- Provides quality status to Project Managers for release planning
+- Supports Scrum Masters in defining definition-of-done and quality standards
+
+---
+
+## DevOps / Site Reliability Engineers (SRE)
+
+### Role Summary
+DevOps and SRE roles focus on infrastructure, deployment automation, system reliability, and operational excellence. They enable safe, frequent releases and ensure systems remain stable and performant in production.
+
+### Responsibilities
+- Design, build, and maintain CI/CD pipelines and deployment automation
+- Manage infrastructure, environments, and configuration as code
+- Monitor system health, performance, and security
+- Respond to incidents and conduct post-mortems
+- Optimize system reliability, scalability, and cost efficiency
+- Document runbooks and operational procedures
+- Collaborate on production readiness and deployment strategies
+
+### Goals
+- Enable rapid, safe deployments with low change failure rates
+- Maximize system uptime and performance
+- Reduce toil through automation
+- Ensure security, compliance, and disaster recovery posture
+
+### Typical Communication
+- Deployment checklists and release notes
+- Infrastructure and deployment documentation
+- Incident reports and post-mortems
+- Monitoring dashboards and alerting configuration
+- SLO/SLA metrics and operational reviews
+
+### Interaction with Existing Roles
+- Works with Developers on deployment practices and observability instrumentation
+- Partners with Project Managers on release timing and rollout strategies
+- Supports QA Engineers with test environment provisioning and production validation
+- Advises on risk mitigation and reliability concerns during planning
+
+---
+
+## Stakeholders / Business Sponsors
+
+### Role Summary
+Stakeholders represent business, customer, or organizational interests. They provide direction, approval, and resources, and hold the team accountable for outcomes.
+
+### Responsibilities
+- Define business objectives and success criteria
+- Approve roadmap priorities and resource allocation
+- Provide executive sponsorship and organizational support
+- Review and approve project status, risks, and decisions
+- Communicate outcomes and impact to broader organization
+- Make strategic trade-off decisions
+
+### Goals
+- Achieve business objectives and ROI
+- Maintain alignment across organizational priorities
+- Reduce risk of project failure or misalignment
+- Enable informed decision-making with clear visibility
+
+### Typical Communication
+- Executive steering meetings and governance reviews
+- Roadmap and business case reviews
+- Risk escalations and decision requests
+- Status summaries and impact reports
+
+### Interaction with Existing Roles
+- Works with Product Managers to align product strategy with business objectives
+- Receives status and risk updates from Project Managers
+- Escalates organizational barriers and provides executive support
+- Reviews quality and delivery outcomes from the full team
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
+- Understanding cross-functional interactions helps teams coordinate effectively and reduce silos.
